@@ -1,0 +1,36 @@
+.custom-calendar {
+  font-family: Arial, sans-serif;
+  width: 100%;
+  border: 1px solid #ccc;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.calendar-header {
+  font-size: 18px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.cl-zink-100 {
+  color: #99a1b1;
+  font-weight: 500;
+}
+
+.rdrDateDisplay {
+  display: none !important;
+}
+
+.rdrCalendarWrapper {
+  position: absolute;
+  top: 145px;
+  left: 100px;
+}
+
+.h-screen100 {
+  height: 80vh;
+}
+
+.h-screen50 {
+  height: 40vh;
+}

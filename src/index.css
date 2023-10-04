@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.dropdown-menu.active{
+  visibility: visible;
+  transform: translateY(0);
+  transition: var(--speed) ease;
+}
+
+.dropdown-menu.inactive{
+  opacity: 0;
+  display: none;
+  visibility: hidden;
+  transform: translateY(-20px);
+  transition: var(--speed) ease;
+}
+/* .react-responsive-modal-closeButton {
+  top: -5px;
+  right: -0px;
+} */
+
+/* .react-responsive-modal-modal {
+  max-width: 80%;
+} */
